@@ -10,7 +10,6 @@ export default function Metal({name, fans, formed, origin, split}) {
       </View>
       <View style={styles.right}>
         <Text style={styles.origin}>{origin}</Text>
-        {/* {split === '-' ? styles.origin : styles.split} */}
         <Text style={styles.text}>{(parseInt(fans)*1000).toLocaleString()}</Text>
       </View>
   </View>
